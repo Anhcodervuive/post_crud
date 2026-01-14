@@ -10,7 +10,7 @@ export function PostFilter() {
 
     const [keyword, setKeyword] = useState(initial);
 
-    function handleSearch() {
+    const handleSearch = () => {
         router.push(keyword ? `/posts?q=${keyword}` : "/posts");
     }
 

@@ -9,7 +9,7 @@ interface PostLinkProps {
     title: string
 }
 
-export function PostLink({ id, title }: PostLinkProps) {
+export const PostLink = ({ id, title }: PostLinkProps) => {
     const segment = useSelectedLayoutSegment()
 
     const isActive = segment === String(id)
