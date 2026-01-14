@@ -39,6 +39,13 @@ export default async function PostDetailPage({
             </h1>
 
             <p className="text-blue-400">{post.body}</p>
+
+            <Link
+                href={`/posts/explore/${id}/comments`}
+                className="inline-block rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+            >
+                View comments
+            </Link>
         </div>
     );
 }

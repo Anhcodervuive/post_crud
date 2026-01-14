@@ -7,6 +7,7 @@ const links = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/posts", label: "Posts" },
+    { href: "/image-demo", label: "Image Demo" },
 ];
 
 export default function NavbarSlot() {
