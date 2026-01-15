@@ -27,6 +27,5 @@ export const GET = async (
     }
 
     const post = await res.json();
-    console.log(post)
     return NextResponse.json(post);
 }
